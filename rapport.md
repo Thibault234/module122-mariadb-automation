@@ -22,28 +22,28 @@ L'automatisation permet :
 ### Commandes Linux nécessaires
 
 **apt update**
-Met à jour la liste des paquets disponibles dans les dépôts Debian afin de disposer des versions les plus récentes des logiciels.
+Met à jour la liste des paquets.
 
 **apt install mariadb-server**
-Installe le serveur de base de données MariaDB ainsi que les dépendances nécessaires à son fonctionnement.
+Installe MariaDB sur le serveur.
 
 **systemctl start mariadb**
-Démarre immédiatement le service MariaDB sur le système.
+Démarre le service MariaDB.
 
 **systemctl enable mariadb**
-Configure MariaDB pour qu'il démarre automatiquement à chaque démarrage du serveur.
+Active MariaDB au démarrage.
 
 **mariadb**
-Permet de se connecter au serveur MariaDB et d'exécuter des commandes SQL.
+Permet d'accéder à MariaDB.
 
 **chmod**
-Modifie les permissions d'un fichier. Dans ce projet, il est utilisé pour rendre le script exécutable.
+Modifie les permissions d'un fichier.
 
 **mkdir**
-Crée un ou plusieurs répertoires sur le système Linux.
+Crée un dossier.
 
 **cat**
-Affiche le contenu d'un fichier dans le terminal, notamment pour consulter le fichier log généré par le script.
+Affiche le contenu d'un fichier.
 
 
 ### Risques à prendre en compte
